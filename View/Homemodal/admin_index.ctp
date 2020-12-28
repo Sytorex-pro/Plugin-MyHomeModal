@@ -1,10 +1,10 @@
 <section class="content">
     <div class="col-md-12">
-        <div class="box">
-            <div class="box-header with-border">
-                <h3 class="box-title"><?= $Lang->get("HOME_MODAL"); ?></h3>
+        <div class="card">
+            <div class="card-header with-border">
+                <h3 class="card-title"><?= $Lang->get("HOME_MODAL"); ?></h3>
             </div>
-            <div class="box-body">
+            <div class="card-body">
                 <div id="alert_msg"></div>
                 <form id="modal_form" action="">
                     <input type="hidden" name="action" id="action">
@@ -49,8 +49,8 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h4 class="modal-title" id="preview_title"></h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
             <div class="modal-body" id="preview_content">
             </div>
